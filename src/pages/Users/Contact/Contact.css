@@ -1,0 +1,54 @@
+/* contact */
+.contact-container{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* background-color: #fff;*/
+}
+
+.contact-container-grid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-title{
+    color: var(--primary-dark-brown);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.info-item{
+    margin: 1.5rem .5rem;
+}
+
+.info-item .name,
+.info-item a,
+.info-item p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.item-flex{
+    display: flex;
+}
+.info-item .name{
+    font-weight: 700;
+}
+.name,
+.name-branch{
+    font-size: 1.5rem;
+}
+
+.phone:hover{
+    color: darkgoldenrod;
+}
+
+.name-branch{
+    min-width: 250px;
+    color: darkgoldenrod;
+}
+/* end contact */

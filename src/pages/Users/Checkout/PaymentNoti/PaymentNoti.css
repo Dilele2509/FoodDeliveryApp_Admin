@@ -1,0 +1,70 @@
+.pay-form-main {
+    width: 30rem;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-dark-beige);
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+}
+
+.payment-noti-title {
+    font-size: 2.5em;
+    color: var(--primary-dark-brown);
+    font-weight: 700;
+}
+
+.payment-noti-contain {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #65C18C;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.pay-btn-container{
+    width: 100%;
+    text-align: center;
+}
+
+#payment-noti-button {
+    position: relative;
+    width: 100%;
+    border: 2px solid var(--primary-dark-brown);
+    background-color: var(--primary-dark-brown);
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    }
+
+#payment-noti-button::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.253);
+    height: 100%;
+    width: 150px;
+    top: 0;
+    left: -200px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    filter: blur(10px);
+    transition-duration: .5s;
+}
+
+#payment-noti-button:hover::after {
+    transform: translateX(600px);
+    transition-duration: .5s;
+}

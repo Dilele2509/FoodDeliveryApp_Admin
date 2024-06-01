@@ -1,0 +1,13 @@
+.div-footer{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.div-footer p,
+.div-footer .linkTemp{
+    color: #444;
+}
+
+.div-footer .linkTemp:hover{
+    color: var(--primary-dark-brown);
+}

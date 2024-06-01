@@ -1,0 +1,95 @@
+:root{
+    --header-height: 6rem;
+}
+
+/*-- header --*/
+.div-header {
+    position: relative ;
+    top: 0;
+    height: var(--header-height);
+}
+
+.admin-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-dark-beige);
+    width: 98%;
+    margin: 1.2rem auto 0 auto;
+    padding-left: 1rem;
+    border-radius: 10px;
+    /* height: var(--header-height);
+    padding: 1rem 1rem; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.admin-page-title h1{
+    color: #333;
+    font-weight: 600;
+}
+
+.admin-header-func {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7rem;
+    padding-left: 3rem;
+}
+.pre-search-header {
+    position: relative;
+    width: 10rem;
+}
+
+.userAva{
+    width: 2.05rem;
+    height: 2.05rem;
+    object-fit: cover;
+    object-position: center;
+    margin-top: .3rem;
+    border-radius: 50%;
+}
+
+.icon-link-admin{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 0.8rem;
+    border: solid 1px #333;
+    border-radius: 10px;
+}  
+
+.icon-link-admin:hover{
+    border-color: var(--primary-dark-brown);
+    transition-duration: .5s !important;
+}
+
+.icon-link-admin:hover .admin-name,
+.icon-link-admin:hover .icon-admin-account{
+    color: var(--primary-dark-brown);
+    transition-duration: .5s;
+}
+
+.icon-link-admin .admin-name{
+    font-size: 1rem;
+    color: #333;
+    margin-right: .3rem;
+    margin-left: .3rem;
+}
+
+.icon-admin-header{
+    color: #333;
+}
+
+.icon-admin-account{
+    margin: .3rem 0 .3rem .3rem
+}
+
+.admin-noti-icon{
+    padding-top: .5rem;
+    margin-right: .8rem;
+}
+/** end header **/
+

@@ -1,0 +1,43 @@
+.profile-sidebar{
+
+}
+
+.profile-title-sidebar{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: solid 1px var(--primary-dark-brown);
+}
+
+.profile-title-sidebar>h3>span{
+    color: var(--primary-dark-brown);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+.profile-content-sidebar{
+    padding: 1rem;
+    font-size: 1.1rem;
+
+}
+.profile-content-sidebar li{
+    background-color: rgba(0, 0, 0, .05);
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.profile-content-sidebar p{
+    padding: 0 2rem;
+    line-height: 2.5rem;
+    color: var(--primary-dark-brown);
+}
+
+.profile-content-sidebar .current>li{
+    background-color: var(--primary-dark-brown);
+}
+
+.profile-content-sidebar .current p{
+    color: var(--primary-light-beige);
+}

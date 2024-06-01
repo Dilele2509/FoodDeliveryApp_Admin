@@ -1,0 +1,149 @@
+.admin-profile-container{
+    width: 98%;
+    margin-top: 3rem;
+}
+
+.admin-list-item{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.admin-avatar-area{
+    width: 100%;
+    max-width: 50%;
+}
+
+.admin-avatar-area img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.admin-security-header h3{
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: .5rem;
+}
+
+.admin-security-header>div.submit-change-pass{
+    margin-top: 0;
+}
+
+.admin-security-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px #333 solid;
+    margin-bottom: 1rem;
+}
+
+.admin-security-area{
+    margin-top: 2rem;
+    width: 90%;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.admin-security-area span,
+.admin-security-area h4{
+    cursor: pointer;
+    color: var(--primary-dark-brown);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .3rem;
+}
+
+.admin-security-area span:hover{
+    color: var(--primary-light-brown);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.admin-profile-info{
+    width: 100%;
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+.admin-info-welcome{
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.admin-info-welcome h3,
+.admin-info-welcome p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-dark-brown);
+}
+
+.admin-info-form{
+    border: #333 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.admin-info-title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: #333 solid 1px;
+}
+
+.admin-edit-btn{
+    margin-bottom: .5rem;
+}
+
+.admin-submit-btn{
+    display: flex;
+    margin-top: -.5rem;
+}
+
+.admin-info-title h3{
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.admin-profile-content{
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.admin-info-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.admin-info-area input,
+.admin-info-area select{
+    width: 80%;
+    height: 2rem;
+    padding: .5rem;
+    border-radius: 10px;
+    border: #999 solid 1px;
+    margin-bottom: 0.5rem;
+}
+
+.admin-info-area span{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    min-width: 80%;
+}
+
+.noti-modal-content{
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}

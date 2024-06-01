@@ -1,0 +1,94 @@
+.user-order-header{
+    text-align: center;
+}
+
+.user-order-header h2{
+    font-size:  1.5rem;
+    font-weight: 600;
+    color: #444;
+    margin-top: 2rem;
+}
+
+.user-order-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: solid 1px #999;
+    margin-top: 0.8rem;
+}
+
+.user-order-info{
+    min-width: 130px;
+    margin-left: 8px;
+}
+
+.user-order-info p{
+    color: #000;
+}
+
+.user-order-title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    /* margin-bottom: 10px; */
+}
+
+.user-order-info .user-order-status{
+    color: #000;
+    text-align: center;
+}
+
+.user-order-total {
+    margin-right: 10px;
+    font-weight: 500;
+    color: #000;
+}
+
+.user-order-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+}
+
+.table-order{
+    margin-top: 1rem;
+}
+
+.table-order > thead > tr > th {
+  border-top: solid 1px #999 !important;
+  border-bottom: solid 1px #999 !important;
+  color: #444;
+  min-height: 3rem;
+  font-size: 1rem;
+}
+
+.table-order > tbody > tr > td {
+  border-top: solid 1px #999 !important;
+  min-height: 4rem;
+}
+
+.order-list-id:hover h3 {
+  transition-duration: 0.1s;
+  color: var(--primary-light-brown);
+}
+
+.order-table-container {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.table-order thead{
+    height: 2rem;
+}
+
+.table-order thead th{
+  position: sticky;
+  top: 0;
+  background-color: #555;
+  color: #eee !important;
+  z-index: 1;
+}

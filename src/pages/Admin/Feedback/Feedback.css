@@ -1,0 +1,9 @@
+.user-list-table tbody>tr .long-text-container {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.non-center{
+    text-align: unset !important;
+}

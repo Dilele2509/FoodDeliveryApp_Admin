@@ -1,0 +1,220 @@
+.user-list-container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    position: relative;
+}
+
+.row-item{
+    width: 98%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.user-list-header{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.user-list-title{
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-dark-brown);
+    border-radius: 10px;
+    height: 4rem;
+    width: 90%;
+    text-align: center;
+}
+
+.user-list-title h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.user-list-table{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.user-list-table tbody>tr>td{
+    color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list-table > thead > tr > th {
+  min-height: 3rem;
+  font-size: 1rem;
+  color: #444;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.user-list-table > tbody > tr > td {
+  border-top: solid 1px #999 !important;
+  min-height: 4rem;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.user-list-table > tbody > tr > td input,
+.user-list-table > tbody > tr > td select {
+  height: 2rem;
+  border: solid 1px #333;
+  padding: 0 .5rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  width: 100%; /* Make the input/select fill the container */
+}
+
+.td-contain-info {
+  display: flex;
+  width: fit-content;
+  min-height: 4rem;
+  align-items: center;
+  overflow-x: auto; /* Enable horizontal scrolling for this container */
+}
+
+
+.user-list-table > thead > tr > th {
+  min-height: 3rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.user-list-table > tbody > tr > td {
+  border-top: solid 1px #999 !important;
+  min-height: 4rem;
+}
+
+.user-list-table >tbody>tr>td input,
+.user-list-table >tbody>tr>td select{
+    height: 2rem;
+    border: solid 1px #333;
+    padding: 0 .5rem;
+    line-height: 2rem;
+    border-radius: 10px;
+}
+
+.user-list-table >tbody>tr>td input:last-child{
+    margin-top: .3rem;
+}
+
+.user-list-table >tbody>tr>td input:focus,
+.user-list-table >tbody>tr>td select:focus{
+    border: solid 2px #333;
+}
+
+.user-list-table thead{
+    height: 2rem;
+}
+
+.td-contain-info{
+    display: flex;
+    width: fit-content;
+    min-height: 4rem;
+    align-items: center;
+}
+
+.user-img-list img{
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.user-info-list{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.user-info-list h4{
+    margin-bottom: .2rem;
+}
+
+.user-info-list h4,
+.user-info-list span{
+    color: #333;
+}
+
+.edit-list-btn{
+    width: 60px;
+    height: 2rem;
+    font-size: .879rem;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: var(--primary-dark-beige); 
+}
+
+.edit-list-btn:hover{
+    background-color: #333;
+    color: #eee;
+    transition: .2s;
+}
+
+.cancel-list-btn{
+    background-color: rgb(206, 28, 28);
+    color: #eee;
+    margin-left: .5rem;
+}
+
+.switch-icon{
+    width: 2.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #eee;
+    padding-top: 0.4rem;
+    /* padding-right: 0.1rem; */
+    border-radius: 10px;
+    background-color: #38E54D;
+}
+
+td:hover .switch-icon{
+    background-color: #333;
+    color: #eee;
+    transition: .3s;
+}
+
+.disable-check{
+    background-color: #F94C10 !important;
+}
+
+td:hover .disable-check{
+  background-color: #666 !important;
+  color: #eee;
+  transition: .3s;
+}
+
+.list-table-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+/* ... (existing styles) */
+
+.td-contain-info {
+  display: flex;
+  width: fit-content;
+  min-height: 4rem;
+  align-items: center;
+  white-space: nowrap; /* Prevent content from wrapping */
+}
+
+.user-info-list {
+  text-align: left;
+  margin-left: 1rem;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* ... (existing styles) */

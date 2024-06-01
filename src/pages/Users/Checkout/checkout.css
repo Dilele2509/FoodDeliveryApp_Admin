@@ -1,0 +1,230 @@
+.body-container-checkout{
+    margin: 3rem auto;
+    max-width: 1170px;
+}
+
+.checkout-container{
+    display: flex;
+}
+
+.main-contain{
+    width: 100%;
+    max-width: 60%;
+}
+
+.main-nav>h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-dark-brown);
+    margin: 0 0 .5rem .8rem;
+}
+
+.main-content{
+    margin-left: calc(60px + .8rem);
+}
+
+.fill-checkout{
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: solid 1px #999;
+    border-radius: 10px;
+}
+
+.main-checkout-content-header >h2{
+    color: var(--primary-dark-brown);
+    font-weight: 500;
+}
+
+.user-img-content {
+}
+
+.user-info-content{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+    margin: .8rem 0 .5rem 0;
+    width: fit-content;
+}
+
+.user-info-content:hover .user-detail-content{
+    color: var(--primary-light-brown);
+}
+
+.user-img-content>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.user-detail-content{
+    margin-left: .8rem;
+    color: #333;
+}
+
+.user-detail-content span{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.fill-info-shipment{
+
+}.radio-input-checkout input {
+  display: none;
+}
+
+.radio-input-checkout {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  color: #000;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.radio-input-checkout  label {
+  display: flex;
+  background-color: #fff;
+  padding: 14px;
+  margin: 8px 0 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #999;
+  color: #000;
+  transition: .3s ease;
+}
+
+.radio-input-checkout  label:hover {
+  background-color: rgba(24, 24, 24, 0.13);
+  border: 1px solid #bbb;
+}
+
+.radio-input-checkout input:checked + label {
+  border: 2px solid #333;
+  color: #333;
+}
+
+.access-pay-button{
+    min-height: 3rem;
+    margin-top: 1rem;
+}
+.pay-btn {
+  width: 130px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  float: right;
+}
+
+.pay-svgIcon {
+  width: 16px;
+}
+
+.pay-svgIcon path {
+  fill: white;
+}
+
+.pay-btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: #FFD401;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.pay-btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.pay-btn:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+
+.bill-content{
+    width: 100%;
+    max-width: 40%;
+    margin-right: 60px;
+    margin-left: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    border: solid .6px #999;
+}
+
+.bill-pro-item{
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px #999;
+    margin-top: .8rem;
+}
+
+.cart-pro-info .bill-pro-quant{
+    color: #000;
+    text-align: center;
+}
+
+.bill-pro-unit-price{
+    font-weight: 500;
+    color: #000;
+}
+
+.bill-pro-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+}
+
+.total-bill,
+.pre-total{
+    margin-top: 1.8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.8rem;
+    border-bottom: solid 1px #999;
+}
+
+.total-bill{
+    border: none;
+}
+
+.total-bill div,
+.pre-total div{
+    min-height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+.total-bill div span,
+.pre-total div span{
+    float: right;
+    font-weight: 500;
+}
+
+.total-bill div span{
+    font-weight: 700 !important;
+    font-size: 1.2rem;
+}

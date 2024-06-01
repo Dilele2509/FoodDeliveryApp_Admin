@@ -1,0 +1,24 @@
+.form-select-sm{
+    height: 2.3rem;
+    border-radius: 10px;
+    border: solid .6px #333;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.form-select-sm:focus{
+    border: solid 2px #333;
+}
+
+.custom-select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background: url('../../../../public/assets/images/down.png') no-repeat right center; 
+    background-size: 1.5rem;
+    background-position-x: 96%;
+    background-color: #fff;
+    padding-right: 1.8rem;
+    margin-top: .8rem;
+}
+  

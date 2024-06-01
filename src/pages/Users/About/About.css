@@ -1,0 +1,12 @@
+.container-about-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.75rem;
+}
+.img-about-page .img-items{
+    width: 30rem;
+}
+.content-container{
+    width: 50%;
+    padding-left: 2rem;
+}

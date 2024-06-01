@@ -1,0 +1,136 @@
+.order-detail-page{
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+}
+
+.od-quant>p{
+    color: #000;
+}
+
+.od-subtotal{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.od-subtotal p{
+    float: right;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+.od-subtotal b{
+    color: #B31312;
+}
+
+.od-info-contain h2{
+    color: #000;
+    font-weight: 600;
+}
+
+.od-date-info{
+    margin-top: 1.5rem;
+}
+
+.od-info-status p{
+    color: #508D69 !important;
+    font-weight: 500;
+}
+
+.od-info-status .cancel{
+    color: #B31312 !important;
+}
+
+.od-info-status .notCompleted{
+    color: #cea21d !important;
+}
+
+.od-date{
+    text-align: left;
+}
+
+.od-date b{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.od-date p{
+    color: #444;
+    float: right;
+    font-size: 1rem;
+}
+
+.cancel-order-btn{
+    float: right;
+    padding: 0 !important;
+}
+
+.cancel-order-btn button{
+    background-color: #B31312;
+}
+
+/* modal */
+.modal-confirm{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.modal-confirm.disNone{
+    display: none;
+}
+
+.confirm-container{
+    width: 20rem !important;
+    min-height: 15rem !important;
+    border: 2px #333 solid;
+}
+
+.confirm-content{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.confirm-content span{
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.confirm-access-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-access-btn button{
+    width: 6rem;
+    height: 2.5rem;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.confirm-access-btn button:hover{
+    background-color: rgba(0, 0, 0, .2);
+    color: #333;
+}
+
+.cancel-confirm-btn button{
+    background-color: #B31312;
+}
+
+.accept-confirm-btn button{
+    background-color: #333;
+}

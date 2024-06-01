@@ -1,0 +1,28 @@
+.user-list-table tbody tr td.long-text-container {
+    max-width: 300px !important;
+    padding: 0 1rem;
+    overflow: auto !important;
+}
+
+.user-list-table tbody tr td.note.long-text-container {
+    max-width: 150px !important;
+    padding: 0 1.3rem;
+    margin: 0 1.3rem !important;
+    overflow: auto !important;
+}
+
+.user-list-table > tbody > tr td {
+    border-top: solid 1px #999 !important;
+    min-height: 4rem;
+}
+.user-list-table tbody>tr td b {
+    color: #333;
+}
+
+.user-list-table tbody>tr td:hover b {
+    color: var(--primary-dark-beige);
+    transition: .2s;
+}
+.non-center{
+    text-align: unset !important;
+}
